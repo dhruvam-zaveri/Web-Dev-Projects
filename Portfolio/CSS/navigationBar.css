@@ -1,0 +1,45 @@
+@import url(fontawesome-all.min.css);
+
+#NavBackground{
+    background-color: #4E5155;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 30vw;
+    
+}
+
+a,a:visited,a:link,a:active{
+    text-decoration: none;
+}
+
+li{
+    float: left;
+}
+ 
+li a.selected{
+    display: block;
+    background-color: white;
+    color: #1e252d;
+    text-align: center;
+    padding: 25px 40px;
+}
+
+li a.unselected{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 40px;
+}
+
+li a:hover {
+    background-color: #5D6063;
+}
+
+.socialMediaIcon{
+    color: whitesmoke;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+
+body{                           /*basic body styles*/
+    margin: 0;
+    padding: 0;
+    background-color: #1e252d;
+}
+
+#mainScaffold{                  /*white scrollale container with contents*/
+    background-color: whitesmoke;
+    width: 90%;
+    height: 100%;
+    margin: 13vw auto 20vw;
+}
+
+span{                           /*intro text*/
+    font-family: 'Catamaran', sans-serif;
+    margin:  0px auto;   
+    color: whitesmoke;
+}
+
+.introTextDiv{                  /*all the text line are grouped under a singular div tag to position properly*/
+    display: inline-block;
+    margin-top: 8vw;
+    text-align: center;
+}
+
+/*below are the text specification of the different line*/
+
+#hello{
+    font-weight: 900;
+    font-size: 120;
+    line-height: 1.5;
+}
+
+#name{
+    font-weight: 700;
+    font-size: 57;
+    line-height: .5;
+}
+
+#developer{
+    font-size: 46;
+    line-height: 2;
+}
+
+#sweet{
+    font-size: 22.2;
+    line-height: .5;
+}
+
+#designAndCode{
+    font-weight: 700;
+    font-size: 50;
+    line-height: 1.5;
+}
+
+#intersects{
+    font-weight: 900;
+    font-size: 63;
+    line-height: .6;
+}
