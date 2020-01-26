@@ -8,9 +8,7 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block;
-    width: 30vw;
-    
+    display: inline-block;    
 }
 
 a,a:visited,a:link,a:active{
@@ -42,4 +40,12 @@ li a:hover {
 
 .socialMediaIcon{
     color: whitesmoke;
+    margin-left: 1vw;
+    padding: 16px 0px;
+}
+
+.SocialHandles{
+    display: block;
+    height: 66px;
+    margin-left:  56vw;
 }
